@@ -1,0 +1,40 @@
+user:
+  isAdmin: true
+  name: Ivan
+  age: 23
+  job title: java-developer
+  skills: ["Java", "Spring", "Kafka"]
+  address: Moscow
+  pets: ["Barsik", "Barbos"]
+skills:
+  - name: Java
+    level: 4
+    description: |
+      Я умею разрабатывать java приложения.
+      Знаю множество библиотек.
+  - name: Spring
+    level: 4
+    description: |
+      Я знаток спринга.
+      Это очень важно для моей работы.
+  - name: Kafka
+    level: 3
+    description: |
+      Кафка - это брокер сообщений.
+      Очень популярный и удобный.
+address:
+  country: Russia
+  city: Moscow
+  street: Lenina
+  home: 13
+  flat: 1
+pets:
+  - name: "Barsik"
+    type: cat
+    breed: pooch
+    can meow: yes
+  - name: "Barbos"
+    type: dog
+    breed: pooch
+    can meow: no
+
